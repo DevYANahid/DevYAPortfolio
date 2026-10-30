@@ -89,23 +89,32 @@ const Main = () => {
                 key={item.imgPath}
                 className="  card"
               >
-                <img width={266} src={item.imgPath} alt="" />
+                <a href= {item.Link} target="_blank">
+               <img 
+                  className="project-image" 
+                  src={item.imgPath}
+                  alt={item.projectTitle}
+                />
+                </a>
+               
 
                 <div style={{ width: "266px" }} className="box">
                   <h1 className="title">{item.projectTitle}</h1>
                   <p className="sub-title">
-                   {item.desc}
+                    {item.desc}
                   </p>
 
                   <div className="flex icons">
                     <div style={{ gap: "11px" }} className="flex">
                       <a className="icon-link" target="_blank" href={item.Link}>
-                       
+
                       </a>
-                      <div className="icon-github"></div>
+                      <div className="icon-github">
+                        
+                      </div>
                     </div>
 
-                    <a className="link flex" href="/view-project">
+                    <a className="link flex" target="_blank" href={item.Link}>
                       more
                       <span
                         style={{ alignSelf: "end" }}
