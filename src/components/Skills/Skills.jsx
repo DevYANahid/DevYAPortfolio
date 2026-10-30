@@ -271,14 +271,14 @@ const Skills = () => {
         }
 
         .tech-heading span {
-          color: #087c9b;
+          color: #aeb8bb;
           font-size: 12px;
           letter-spacing: 4px;
           font-weight: bold;
         }
 
         .tech-heading h2 {
-          color: #153b4b;
+          color: #c9d8df;
           font-size: 36px;
           margin: 12px 0;
           font-weight: 700;

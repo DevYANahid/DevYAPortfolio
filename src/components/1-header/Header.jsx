@@ -61,13 +61,13 @@ const Header = () => {
           // get value from LS
           setTheme(localStorage.getItem("currentMode"));
         }}
-        className="mode flex"
+        className=""
       >
-        {theme === "dark" ? (
+        {/* {theme === "dark" ? (
           <span className="icon-moon-o"> </span>
         ) : (
           <span className="icon-sun"> </span>
-        )}
+        )} */}
       </button>
 
       {showModal && (
